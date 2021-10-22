@@ -1,0 +1,9 @@
+.article {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(130px, 1fr));
+    grid-template-rows: repeat(2, minmax(250px, 0.5fr));
+    gap: 10px 10px;
+    align-items: start;
+    margin-top: 50px;
+    top: 15%;
+}

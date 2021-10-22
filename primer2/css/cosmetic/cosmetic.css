@@ -1,0 +1,12 @@
+.bc-bv {
+    background-color: rgb(5, 34, 68);
+}
+
+.ts-g {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.header-border {
+    box-shadow: inset 0 0 1vw #1041ff, 0 0 3vw #1041ff, inset 0 0 6vw #1041ff, 0 0 6vw #1041ff, 0 0 .4vw #8bfdfe;
+    border-radius: .5625rem;
+}

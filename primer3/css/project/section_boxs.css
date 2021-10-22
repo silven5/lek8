@@ -1,0 +1,11 @@
+.section__box {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(130px, 1fr));
+    gap: 10px 10px;
+}
+
+.section__condition {
+    font-size: 1.4vmax;
+    text-align: center;
+    margin-top: 5px;
+}

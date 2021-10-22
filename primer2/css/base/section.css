@@ -1,0 +1,14 @@
+.section {
+    font-family: 'Clicker Script', cursive;
+    font-weight: normal;
+    font-size: 1.4vmax;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.section-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(130px, 1fr));
+    grid-template-rows: repeat(2, minmax(130px, 0.5fr));
+    gap: 10px 10px;
+}

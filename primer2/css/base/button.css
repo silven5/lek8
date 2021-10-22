@@ -1,0 +1,21 @@
+.button {
+    background-color: transparent;
+    margin: 10px 20px;
+    padding: 10px 30px;
+    position: relative;
+    border: 2px solid rgb(204, 248, 242);
+    color: rgb(162, 165, 170);
+    transition: .4s;
+    font-family: 'Clicker Script', cursive;
+    font-weight: bolder;
+    font-size: 1.8vmax;
+    cursor: pointer!important;
+    outline: none;
+    margin-left: -4%;
+}
+
+button:hover {
+    background-color: rgb(17, 43, 39);
+    color: white;
+    transition-duration: 0.4s;
+}

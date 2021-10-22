@@ -1,0 +1,35 @@
+.header__text-shadow {
+    text-shadow: 0 0 0.6rem #ffe6ffa2, 0 0 1.5rem #943b6e, -0.2rem 0.1rem 1rem #863664, 0.2rem 0.1rem 1rem #64073c, 0 -0.5rem 2rem #832142, 0 0.5rem 3rem #580b45;
+}
+
+.header__background {
+    background-image: radial-gradient( ellipse 50% 35% at 50% 50%, #6b1839, transparent);
+}
+
+.c-w {
+    color: #ffe6ff93;
+}
+
+.zi-10 {
+    z-index: 10;
+}
+
+.zi-15 {
+    z-index: 15;
+}
+
+.ts-g {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.fs-1_8 {
+    font-size: 1.8vmax;
+}
+
+.c-wh {
+    color: white;
+}
+
+.bg-g {
+    background: linear-gradient(to bottom, rgb(10, 10, 50) 0%, rgb(60, 10, 60) 100%);
+}

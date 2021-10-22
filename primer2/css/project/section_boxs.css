@@ -1,0 +1,29 @@
+.section__box {
+    font: 3vmax/5 Monaco;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    clip-path: circle(50%);
+    height: 5em;
+    width: 5em;
+    align-self: center;
+    margin-left: 30%;
+}
+
+.section-grid__box {
+    grid-column: span 2;
+}
+
+.section-grid__p {
+    font: 1.4vmax Monaco;
+    text-align: center;
+    display: inline-block;
+    margin-top: -5px;
+}
+
+.section__rezult {
+    border: rgba(255, 255, 255, 0.5) 2px solid;
+    height: max-content;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5%;
+    display: none;
+}

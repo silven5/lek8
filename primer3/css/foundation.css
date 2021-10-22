@@ -1,0 +1,58 @@
+@import url("base/header.css");
+@import url("base/section.css");
+@import url("cosmetic/cosmetic.css");
+@import url("base/button.css");
+@import url("project/section_boxs.css");
+@import url("base/article.css");
+html,
+body {
+    overflow: auto;
+    background: #151a28;
+    padding: 0;
+    margin: 0;
+    font-family: 'Rock Salt', cursive;
+    overflow-x: hidden;
+}
+
+canvas {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+#particle-canvas {
+    width: 100vw;
+    height: 200vh;
+    background: linear-gradient(to bottom, rgb(10, 10, 50) 0%, rgb(60, 10, 60) 100%);
+    vertical-align: middle;
+}
+
+td,
+th {
+    border-top: tan 1px solid;
+    border-bottom: tan 1px solid;
+    border-left: tan 1px solid;
+    border-right: tan 1px solid;
+    width: 100%;
+    font-size: 1.6vmax;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+th {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3 {
+    font-size: 1.2vmax;
+}

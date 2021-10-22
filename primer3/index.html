@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Javascript Example</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="css/foundation.css">
+    <link href="http://fonts.googleapis.com/css?family=Raleway:200,400,800|Clicker+Script" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css">
+    <link rel="icon" href="img/favicon .ico">
+
+    <script src="https://use.fontawesome.com/08c46a2805.js"></script>
+</head>
+
+<body class="bg-g">
+    <header class="header header__background c-w header__text-shadow zi-10">
+        <span class="fast-flicker">П</span>рикл<span class="flicker">а</span>ди
+
+    </header>
+    <main>
+        <article class="article c-w ts-g">
+            <section class="section zi-10">
+                <h2>Перший приклад</h2>
+                <button class="button ts-g zi-15" onclick="go1()"> GO</button>
+                <button class="button ts-g zi-15" onclick="go2()"> GO1</button>
+                <p id="rezult1" class="fs-1_8 c-wh"></p>
+            </section>
+            <section class="section zi-10">
+                <h2>Другий приклад</h2>
+                <p class=" section__condition">Знайти суму масиву </p>
+                <button class="button ts-g zi-15" onclick="go3()"> Sum</button>
+                <p id="rezult2" class="fs-1_8 "></p>
+            </section>
+            <section class="section zi-10">
+                <h2>Третій приклад</h2>
+
+                <p class=" section__condition">Відсортувати масив людей відповідно до віку та отримати їх середній вік. Масив зберігається у файлі JSON </p>
+                <button class="button ts-g zi-15" onclick="goJSON()"> GO</button>
+
+
+            </section>
+            <section class="section zi-10">
+                <div class="section__box">
+                    <p id="rezult3" class="fs-1_8 "></p>
+                    <p id="rezult4" class="fs-1_8 "></p>
+                    <p id="rezult5" class="fs-1_8 "></p>
+                </div>
+            </section>
+        </article>
+    </main>
+    <canvas id="particle-canvas"></canvas>
+    <script src="js/animation.js"></script>
+    <script src="js/script1.js"></script>
+    <script src="js/script2.js"></script>
+    <script type="text/javascript" src="json/people.json"></script>
+    <script src="js/script3.js"></script>
+</body>
+
+</html>
