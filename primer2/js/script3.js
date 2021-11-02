@@ -15,16 +15,16 @@ function mPizza() {
         write('Замовлення на виготовлення піцци ' + Pizza[i1] + ' отримано. Починаємо готувати', div3);
         s = Pizza[i1];
         i1++;
-        setTimeout(a_Pizza, 2000);
+        setTimeout(a_Pizza, 3000);
     }, 5000);
 }
 
 
 
 
-const a_Pizza = function(Pizza) {
+const a_Pizza = function() {
     write('Ура піца ' + s + ' вже готова', div3);
-    write('Отримайте Ваш заказ', div3)
+    write('Отримайте Ваш замовлення', div3)
 }
 
 function asyncPizza() {

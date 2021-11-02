@@ -4,6 +4,7 @@
 @import url("base/button.css");
 @import url("project/section_boxs.css");
 @import url("base/article.css");
+@import url("base/slider.css");
 html,
 body {
     overflow: auto;

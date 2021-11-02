@@ -6,4 +6,5 @@
     align-items: start;
     margin-top: 50px;
     top: 15%;
+    grid-gap: 20px 20px;
 }

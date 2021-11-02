@@ -11,7 +11,9 @@
     font-size: 1.8vmax;
     cursor: pointer!important;
     outline: none;
+    max-width: 150px;
     margin-left: -4%;
+    margin-left: 10px;
 }
 
 button:hover {
