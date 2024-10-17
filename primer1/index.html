@@ -1,91 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <title>Приклади JS</title>
-    <meta charset="utf-8">
-
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/project.css">
-    <link rel="stylesheet" href="css/cosmetic.css">
+    <meta charset="utf-8" />
+    <!-- MCSS -->
+    <link rel="stylesheet" href="css/foundation.css" />
     <link rel="icon" href="img/favicon .ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="http://fonts.googleapis.com/css?family=Raleway:200,400,800|Clicker+Script" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Raleway:200,400,800|Clicker+Script"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <header class="header c-dg zi-10" onclick="location.reload()">
-        <h1 class=" o-0_8 h1">Приклади JavaScript</h1>
-
+      <h1 class="o-0_8 h1">Приклади JavaScript</h1>
     </header>
     <main>
-        <article class="article">
-
-            <section class=" article__box ta-c zi-10">
-                <h2>Перший приклад</h2>
-                <p id="demo_script1">
-
-                </p>
-                <button type="button" class=" button  c-dg " onclick="document.getElementById('demo_script1').innerHTML = 'Підключення обробником'">Click me</button>
-            </section>
-            <section class=" article__box ta-c zi-10" id="section2">
-                <h2>Другий приклад</h2>
-                <p id="demo_script2">
-                    Приклад;
-                </p>
-                <p id="demo_script3">
-                    Також приклад
-                </p>
-                <button type="button" class=" button  c-dg " onclick="ras()">GO1</button>
-                <button type="button" class=" button  c-dg " onclick="ras1()">GO2</button>
-                <button type="button" class=" button  c-dg " onclick="ras2()">GO3</button>
-            </section>
-            <section class=" article__box ta-c zi-10" id="section3">
-                <h2>Приклад розрахунків</h2>
-                <form class=" form" id="form_ras" method="" action="" autocomplete="off">
-                    <div class="fields ">
-                        <label>"Початкове значення"
-                    <input type="number" class="input" id="xn" name="xn" step="0.5" value="1" >
-                </label>
-                        <label>"Кінцеве значення"
-                    <input type="number" class="input" id="xk" name="xk" step="0.5" value="3">
-                </label>
-                    </div>
-                    <button type="button" class=" button  c-dg " onclick="input()"> RUN </button>
-
-                </form>
-
-            </section>
-            <section class=" article__box ta-c zi-10" id="section4">
-                <div id="rezult">
-
-                </div>
-            </section>
-        </article>
-        <section class="fog bg-b">
-            <figure class="absolute_bg absolute_bg-img"></figure>
-            <div class="fog__container">
-
-
-
-                <div class="fog__img fog__img-first">
-
-
-                </div>
-                <div class="fog__img fog__img-second"></div>
-            </div>
-
+      <article class="article">
+        <section class="article__box ta-c zi-10">
+          <h2>Перший приклад</h2>
+          <p id="demo_script1"></p>
+          <button
+            type="button"
+            class="button c-dg"
+            onclick="document.getElementById('demo_script1').innerHTML = 'Підключення обробником'"
+          >
+            Click me
+          </button>
         </section>
+        <section class="article__box ta-c zi-10" id="section2">
+          <h2>Другий приклад</h2>
+          <p id="demo_script2">Приклад;</p>
+          <p id="demo_script3">Також приклад</p>
+          <div class="button_box">
+            <button type="button" class="button c-dg" onclick="ras()">
+              GO1
+            </button>
+            <button type="button" class="button c-dg" onclick="ras1()">
+              GO2
+            </button>
+            <button type="button" class="button c-dg" onclick="ras2()">
+              GO3
+            </button>
+          </div>
+        </section>
+        <section class="article__box ta-c zi-10" id="section3">
+          <h2>Приклад розрахунків</h2>
+          <form
+            class="form"
+            id="form_ras"
+            method=""
+            action=""
+            autocomplete="off"
+          >
+            <div class="fields">
+              <label
+                >"Початкове значення"
+                <input
+                  type="number"
+                  class="input"
+                  id="xn"
+                  name="xn"
+                  step="0.5"
+                  value="1"
+                />
+              </label>
+              <label
+                >"Кінцеве значення"
+                <input
+                  type="number"
+                  class="input"
+                  id="xk"
+                  name="xk"
+                  step="0.5"
+                  value="3"
+                />
+              </label>
+            </div>
+            <button type="button" class="button c-dg" onclick="input()">
+              RUN
+            </button>
+          </form>
+        </section>
+        <section class="article__box ta-c zi-10" id="section4">
+          <div id="rezult"></div>
+        </section>
+      </article>
+      <section class="fog bg-b">
+        <figure class="absolute_bg absolute_bg-img"></figure>
+        <div class="fog__container">
+          <div class="fog__img fog__img-first"></div>
+          <div class="fog__img fog__img-second"></div>
+        </div>
+      </section>
     </main>
     <script src="js/script1.js"></script>
     <script src="js/script2.js"></script>
     <script src="js/script3.js"></script>
     <script>
-        document.getElementById("demo_script1").innerHTML = document.getElementById("demo_script1").innerHTML + "<br>Після завантаження";
+      document.getElementById("demo_script1").innerHTML =
+        document.getElementById("demo_script1").innerHTML +
+        "<br> <b>Після завантаження</b>";
     </script>
-</body>
-
+  </body>
 </html>

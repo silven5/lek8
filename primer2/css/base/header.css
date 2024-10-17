@@ -1,13 +1,14 @@
 /* Визначимо основні властивості з використанням CSS кастомних властивостей*/
 
 :root {
-    /*Визначимо фіксовану висоту заголовку*/
-    --height-header: 200px;
+  /*Визначимо фіксовану висоту заголовку*/
+  --height-header: 150px;
 }
 
 .header {
-    display: flex;
-    height: var(--height-header);
-    justify-content: center;
-    background: transparent;
+  display: flex;
+  height: var(--height-header);
+  justify-content: center;
+  background: transparent;
+  border-bottom: 3px dotted white;
 }

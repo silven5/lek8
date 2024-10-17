@@ -2,7 +2,7 @@
 const div1 = document.querySelector("#sync");
 
 function write(s, div) {
-    var p = document.createElement("p");
+    let p = document.createElement("p");
     p.innerHTML = s;
     p.className = 'section-grid__p';
     div.append(p);
@@ -40,18 +40,18 @@ function syncGo() {
 }
 //Асинхроно
 const div2 = document.querySelector("#async");
-const a_makePizza = function(Pizza, cb) {
+const a_makePizza = function (Pizza, cb) {
     write('Замовлення на виготовлення піцци ' + Pizza + ' отримано. Починаємо готувати', div2);
     //Функція оберненого виклику
     //setTimeout Дозволяє викликати функцію один раз через певний час
     setTimeout(cb, 3000);
 }
 
-const a_readBook = function(Book) {
+const a_readBook = function (Book) {
     write('Читаю цікаву книгу ' + Book, div2);
 }
 
-const a_eatPizza = function() {
+const a_eatPizza = function () {
     write('Ура піца вже готова', div2);
     write('Нарешті, вкусна смачна піца!!!Я її їм!!!!', div2)
 }

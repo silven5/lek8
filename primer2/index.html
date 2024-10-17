@@ -1,72 +1,51 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <title>Semantic Tag</title>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
 
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/base/text-pop-up.css">
-    <link rel="stylesheet" href="css/base/header.css">
-    <link rel="stylesheet" href="css/base/article.css">
-    <link rel="stylesheet" href="css/base/section.css">
-    <link rel="stylesheet" href="css/base/button.css">
-    <link rel="stylesheet" href="css/base/bounce-in-left.css">
-    <link rel="stylesheet" href="css/base/bounce-in-right.css">
-    <link rel="stylesheet" href="css/project/header_blocks.css">
-    <link rel="stylesheet" href="css/project/section_boxs.css">
-    <link rel="stylesheet" href="css/cosmetic/cosmetic.css">
-    <link href="http://fonts.googleapis.com/css?family=Raleway:200,400,800|Clicker+Script" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/foundation.css" />
 
-    <link rel="icon" href="img/favicon .ico">
+    <link
+      href="http://fonts.googleapis.com/css?family=Raleway:200,400,800|Clicker+Script"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <link rel="icon" href="img/favicon .ico" />
 
     <script src="https://use.fontawesome.com/08c46a2805.js"></script>
-</head>
+  </head>
 
-<body class="bc-bv">
-
+  <body class="bc-bv">
     <header class="header">
-        <h1 class="header__h1 ts-g text-pop-up-bottom">ПРИКЛАДИ JavaScript</h1>
+      <h1 class="header__h1 ts-g text-pop-up-bottom">ПРИКЛАДИ JavaScript</h1>
     </header>
     <article class="article">
-        <section class="section bounce-in-left ts-g" id="section1">
-            <h2>Перший приклад</h2>
-            <div id="example1" class="section__box">
-
-            </div>
-
-        </section>
-        <section class="section section-grid bounce-in-right ts-g" id="section2">
-            <div class=" section-grid__box">
-                <h2>Другий приклад</h2>
-                <button class=" button ts-g" onclick="syncGo()">Sync</button>
-                <button class=" button ts-g" onclick="asyncGo()">Async</button>
-            </div>
-            <div class="section__rezult " id="sync">
-
-            </div>
-            <div id="async" class="section__rezult ">
-
-            </div>
-
-        </section>
-        <section class="section section-grid bounce-in-right ts-g" id="section3">
-            <div class=" section-grid__box">
-                <h2>Третій приклад</h2>
-                <button class=" button ts-g" onclick="asyncPizza()">Піцерія</button>
-
-            </div>
-            <div id="async_pizza" class="section__rezult ">
-
-            </div>
-        </section>
-
+      <section class="section bounce-in-left ts-g" id="section1">
+        <h2>Перший приклад</h2>
+        <div id="example1" class="section__box"></div>
+      </section>
+      <section class="section section-grid bounce-in-right ts-g" id="section2">
+        <div class="section-grid__box">
+          <h2>Другий приклад</h2>
+          <button class="button ts-g" onclick="syncGo()">Sync</button>
+          <button class="button ts-g" onclick="asyncGo()">Async</button>
+        </div>
+        <div class="section__rezult" id="sync"></div>
+        <div id="async" class="section__rezult"></div>
+      </section>
+      <section class="section section-grid bounce-in-right ts-g" id="section3">
+        <div class="section-grid__box">
+          <h2>Третій приклад</h2>
+          <button class="button ts-g" onclick="asyncPizza()">Піцерія</button>
+        </div>
+        <div id="async_pizza" class="section__rezult"></div>
+      </section>
     </article>
 
     <script src="js/script1.js"></script>
     <script src="js/script2.js"></script>
     <script src="js/script3.js"></script>
-
-</body>
-
+  </body>
 </html>

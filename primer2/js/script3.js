@@ -22,9 +22,9 @@ function mPizza() {
 
 
 
-const a_Pizza = function() {
+const a_Pizza = function () {
     write('Ура піца ' + s + ' вже готова', div3);
-    write('Отримайте Ваш замовлення', div3)
+    write('Отримайте Ваше замовлення', div3)
 }
 
 function asyncPizza() {

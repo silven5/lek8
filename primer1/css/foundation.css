@@ -1,25 +1,33 @@
+@import url("base.css");
+@import url("cosmetic.css");
+@import url("project.css");
 html {
-    /*Визначаємо обчислення ширину та висоти контенту з урахуванням відступів та полів*/
-    box-sizing: border-box;
-    /*Відображаємо лише область внутрі елементу*/
-    overflow: hidden;
-    margin: 0;
+  /*Визначаємо обчислення ширину та висоти контенту з урахуванням відступів та полів*/
+  box-sizing: border-box;
+  /*Відображаємо лише область внутрі елементу*/
+  overflow: hidden;
+  margin: 0;
 }
 
 *,
 *:before,
 *:after {
-    box-sizing: inherit;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
+section {
+  text-align: center;
+}
 figure {
-    margin: 0;
+  margin: 0;
 }
 
 table {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.0vmax;
-    text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1vmax;
+  text-align: center;
 }

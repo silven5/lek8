@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Перевірка</title>
+<script>
+var a=[];
+function vivod(n)
+{
+	document.write("<p>");
+	for (var i=2;i<n;i++)
+	{ if (a[i])	{
+		document.write(i);
+		document.write(" ");}
+	}
+	document.write("</p>");	
+}
+function ras()
+{	var v = prompt("Введіть n", 100);
+	n=parseInt(v);
+	for(var i=2;i<n;i++)
+	{		a[i]=true;	}
+	var p=2;
+	do {
+ 	  for (i = 2 * p; i < n; i += p) 
+ 	  {
+    	a[i] = false;
+  	}
+  for (i = p + 1; i < n; i++) {
+    if (a[i]) break;
+  }
+  p = i;
+} 
+while (p * p < n); 
+vivod(n);
+}
+</script>
+</head>
+<body>
+<button id="knop" onclick="ras()">Розрахунок</button>
+</body>
+</html>

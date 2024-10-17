@@ -1,15 +1,21 @@
+@import url("base/article.css");
+@import url("base/bounce-in-left.css");
+@import url("base/bounce-in-right.css");
+@import url("base/box-fade-in.css");
+@import url("base/button.css");
+@import url("base/header.css");
+@import url("base/section.css");
+@import url("base/text-pop-up.css");
+@import url("cosmetic/cosmetic.css");
+@import url("project/header_blocks.css");
+@import url("project/section_boxs.css");
 /* Визначимо основні властивості з використанням CSS кастомних властивостей*/
 
-:root {
-    /*Визначимо фіксовану висоту заголовку*/
-    --height-header: 70px;
-}
-
 body {
-    padding: 0;
-    margin: 0;
-    color: rgb(162, 165, 170);
-    font-family: Lobster, cursive;
+  padding: 0;
+  margin: 0;
+  color: rgb(162, 165, 170);
+  font-family: Lobster, cursive;
 }
 
 h1,
@@ -18,6 +24,6 @@ h3,
 h4,
 h5,
 h6 {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }

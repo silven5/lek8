@@ -34,6 +34,7 @@ function write_arr(a) {
 function go3() {
     let { html, sum } = sumInput();
     //if (a>0)Math.sqrt(a) else a * a
+    //function(a) {if (a>0)Math.sqrt(a) else a * a; }
     let numbers1 = numbers.map(a => a > 0 ? Math.sqrt(a) : a * a);
     let numbers2 = numbers.filter(a => a % 2 == 0);
     let dob = numbers.reduce((a, b) => a * b);

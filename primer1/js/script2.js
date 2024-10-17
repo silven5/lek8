@@ -5,6 +5,7 @@ function ras() {
     let s;
     s = s + 10;
     a = a + 'abc';
+    a = a - 10;
     a = a + 10;
     a = 5.2;
     a = a + 7;

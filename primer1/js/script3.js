@@ -1,5 +1,5 @@
 function input() {
-    var xn = 0,
+    let xn = 0,
         xk = 0,
         h = 1,
         y = 0,
